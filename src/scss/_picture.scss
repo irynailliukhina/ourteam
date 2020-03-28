@@ -1,0 +1,56 @@
+.content__picture{
+    padding-right: 45px ;
+    max-width: 450px;
+
+   
+    .portrait{
+        width: 388px;
+        height: 388px;
+        position: relative;
+
+    }
+
+    
+        &__corner{
+        position: absolute;
+        height: 100px;
+        width: 100px;
+        border: solid 1px $color-yellow;
+    }
+
+        &__corner--tl{
+            top: -15px;
+            left: -15px;
+            border-right: none;
+            border-bottom: none;
+        }
+
+        &__corner--tr{
+            top: -15px;
+            right: -15px;
+            border-left: none;
+            border-bottom: none;
+        }
+
+        &__corner--bl{
+            bottom: -15px;
+            left: -15px;
+            border-right: none;
+            border-top: none;
+        }
+
+        &__corner--br{
+            bottom: -15px;
+            right: -15px;
+            border-left: none;
+            border-top: none;
+        }
+        
+
+
+    .photo{
+        border: 2px solid $color-yellow;
+       
+       
+    }
+}

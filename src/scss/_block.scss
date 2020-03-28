@@ -1,0 +1,98 @@
+.content__block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left:  50px;
+    max-width: 450px;
+
+
+    &__nav {
+        width: 55px;
+        height: 15px;
+        border: 3px solid $color-yellow;
+        border-top: none;
+        border-left: none;
+        transform: rotate(135deg);
+        box-sizing: border-box;
+        position: relative;
+        cursor: pointer;
+        
+    }
+
+    &__nav-other{
+        width: 55px;
+        height: 15px;
+        border: 3px solid $color-yellow;
+        border-top: none;
+        border-left: none;
+        transform: rotate(-45deg);
+        box-sizing: border-box;
+        position: relative;
+        cursor: pointer;
+    }
+
+    &__name{
+        font-family: $bold;
+        font-weight: bolder;
+        color: $color-grey;
+        font-size: 36px;
+        
+    }
+
+    &__line{
+        height: 1px;
+        width: 100px;
+        background-color: $color-yellow;
+        display: block;
+        margin: 0 auto;
+        margin: 25px auto;
+    }
+
+    &__occupation{
+        font-family: $medium;
+        font-size: 24px;
+        color: $color-grey;
+    }
+
+    &__desc{
+        margin: 24px auto;
+        font-size: 14px;
+        color: $color-grey;
+        font-family: $medium;
+    }
+    &__lines{
+        display: flex;
+        justify-content: center;
+
+        &__short{
+            display: inline-block;
+            height: 4px;
+            width: 10px;
+            background-color: $color-yellow;
+            margin-left: 5px;
+        }
+
+        .long{
+            width: 20px;
+        }
+    }
+
+    &__button{
+        height: 24px;
+        width: 120px;
+        border: 1px solid $color-yellow;
+        cursor: pointer;
+        font-family: $open;
+        font-size: 14px;
+        font-weight: bold;
+        margin: 25px auto;
+        
+        &:hover{
+            background-color: rgba(128, 128, 128, 0.295);
+        }
+        a{
+            text-decoration: none; 
+            color: $color-grey;
+        }
+        
+    }}
